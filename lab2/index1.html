@@ -1,42 +1,62 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML with Style</title>
-</head>
-<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f2f2f2;">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>พื้นฐาน HTML</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 20px;
+        background-color: #f4f4f9;
+        color: #333;
+      }
 
+      h1 {
+        color: #00509e;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      a {
+        color: #0073e6;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
     <!-- Header Section -->
-    <h1 style="color: #4411bc; text-align: center; margin-top: 30px;">
-        ยินดีต้อนรับเข้าสู่ website ของฉัน
-    </h1>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <!-- Paragraph Example -->
+    <h3>Heading 3</h3>
+    <!-- Hyperlink Example -->
+    <h3>Heading 4</h3>
+    <!-- Image Example -->
+    <h3>Heading 6</h3>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4zVUi8T8Y7-3pv55y5s-A6V3GIq7tvCbiBw&s" alt="ตัวอย่างรูปภาพ" />
 
-    <!-- Paragraph Text with Style -->
-    <p style="color: #5a4242; font-size: 18px; line-height: 1.5; text-align: center; margin: 20px;">
-        นี้เป็นเว็บไซด์ที่ฉันทำขึ้นมา <b>เพื่อส่งงานอาจารย์</b>
-        ก็ไม่มีอะไรแหละ.
-    </p>
+    <!-- Formatting Text -->
+    <h3>ตัวอย่างการตกแต่งข้อความ</h3>
+    <p><strong>ข้อความหนา</strong></p>
+    <p><em>ข้อความเอียง</em></p>
+    <p><u>ข้อความขีดเส้นใต้</u></p>
 
-    <!-- Image Section -->
-    <div style="text-align: center; margin: 20px;">
-        <img src="https://media.tenor.com/eGpVsQRGrJwAAAAe/valorant-iso.png" alt="Sample Image" 
-             style="width: 300px; height: auto; border: 3px solid #333356; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
-    </div>
-
-    <!-- Link Section -->
-    <div style="text-align: center; margin: 20px;">
-        <a href="https://www.rmutl.ac.th/" 
-           style="text-decoration: none; color: white; background-color: #5530ab; padding: 10px 20px; border-radius: 5px; display: inline-block;">
-           เข้าชมเว็บไซด์มหาลัย
-        </a>
-    </div>
-
-    <!-- Footer -->
-    <footer style="text-align: center; padding: 10px; background-color: #5530ab; color: white; position: fixed; bottom: 0; width: 100%;">
-        © 2024 My Styled HTML Page
-    </footer>
-
-</body>
+    <!-- Comment Example -->
+    <!-- นี่คือส่วนที่ใช้เป็นตัวอย่างการเขียน Comment ใน HTML -->
+    <h1 style="background-color:lightcoral;">This is a heading</h1>
+    <p style="background-color:lightsalmon;">This is a paragraph.</p>
+    <h1 style="color:lightcoral;">This is a heading</h1>
+    <p style="color:lightblue;">This is a paragraph.</p>
+  </body>
 </html>
