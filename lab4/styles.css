@@ -73,7 +73,10 @@ nav{
 }
 
 .hero .container{
-
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .hero h2{
@@ -89,7 +92,8 @@ nav{
 }
 
 .hero img{
-
+    width: 250px;
+    float: right;
 }
 
 .hero .hero-button{
