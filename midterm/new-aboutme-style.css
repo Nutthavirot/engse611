@@ -22,11 +22,21 @@ a:hover{
     background-color: rgb(245,172,15);
 }
 .row{
-    
+    display: flex;
+        justify-content: space-between;
+        gap: 0;
 }
 .box{
-    width: auto;
-    height: auto;
-    line-height:auto;
-    background-color: rgb(255,242,204);
+    flex: 1;
+    background-color: rgb(255, 242, 204); 
+    padding: 20px;
+    border: 1px solid rgb(246, 168, 0);
+    font-weight: bold;
+}
+.box2{
+    flex: 1;
+    background-color: rgb(213,232,204); 
+    padding: 20px;
+    border: 1px solid rgb(213,232, 0);
+    font-weight: bold;
 }
