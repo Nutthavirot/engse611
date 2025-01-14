@@ -16,23 +16,27 @@
 }
 
 * {
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
     line-height: 1.5;
   }
 
 body{
-   
+    font-family: 'Arial', sans-serif;
+    background-color: #f4faff;
+    color: #0a2e54;
+    line-height: 1.6;
 }
 
 h2{
-
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
 }
 
 h3{
-
+    font-size: 36px;
+    color: var(--darkblue);
 }
 
 nav{
@@ -50,7 +54,9 @@ nav{
 }
 
 .navbar .img{
-    
+    height: 50px;
+    margin-right: 1em; 
+    object-fit: contain;
 }
 
 .navbar .logo{
@@ -77,6 +83,7 @@ nav{
     padding-left: 5%;
     padding-top: 5%;
     padding-bottom: 5%;
+    align-items: center;
 }
 
 .hero h2{

@@ -1,0 +1,32 @@
+body{
+    font-family: 'Arial', sans-serif;
+    color: #000000;
+    line-height: 1.6;
+}
+h1{
+    color: #884efd;
+}
+h2{
+    color: #884efd;
+}
+a{
+    color: #ff0000;
+}
+a:hover{
+    color: #5ba8fb;
+}
+.container{
+    text-align: center;
+}
+.navbar{
+    background-color: rgb(245,172,15);
+}
+.row{
+    
+}
+.box{
+    width: auto;
+    height: auto;
+    line-height:auto;
+    background-color: rgb(255,242,204);
+}

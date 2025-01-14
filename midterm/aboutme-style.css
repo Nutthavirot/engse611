@@ -1,0 +1,18 @@
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #e6fb9b;
+    color: #000000;
+    line-height: 1.6;
+}
+h1{
+    color: #884efd;
+}
+h2{
+    color: #884efd;
+}
+a{
+    color: #ff0000;
+}
+a:hover{
+    color: #5ba8fb;
+}
