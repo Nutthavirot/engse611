@@ -61,8 +61,14 @@ body {
   li span {
     flex-grow: 1;
     margin-right: 10px;
+    
   }
   
+  li.completed span {
+    text-decoration: line-through;
+    color: #7b1fa2; 
+  }
+
   li button {
     background-color: #e74c3c;
     color: #fff;
@@ -80,4 +86,7 @@ body {
   li.completed {
     background-color: #ecf0f1;
   }
-  
+  input[type="checkbox"] {
+    margin-right: 12px;
+    accent-color: #d81b60;
+  }
